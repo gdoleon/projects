@@ -1,0 +1,147 @@
+body {
+  font-family: ubuntu;
+  font-size: 16px;
+  background-color: #EBEBEB;
+  color: #414141;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+/* Nav Bar*/
+.top-bar {
+  display: flex;
+  height: 3rem;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.top-bar a {
+  color: #414141;
+}
+
+.logo-text {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  color: #7E7E7E
+}
+
+nav {
+  color: #7E7E7E;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15rem;
+}
+
+.social-links {
+  display: flex;
+  width: 12rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Intro*/
+.container {
+  margin: 0px auto;
+  width: 80%;
+  border: 1px solid black;
+}
+
+.container.intro {
+  display: flex;
+  height: 50rem;
+  align-items: center
+}
+
+.intro-text
+span {
+  padding-left: 7rem;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+/* Hero image */
+.hero-image {
+  width: 100%;
+  height: 45rem;
+  overflow: hidden;
+}
+
+.hero-image img {
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* Catalogue*/
+.container.catalogue {
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7rem;
+}
+
+.grid-item {
+  height: 400px;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.thumbnail {
+  display: flex;
+  height: 85%;
+  border: 1px solid black;
+  overflow: hidden;
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+}
+
+.thumbnail img {
+  max-width: 100%;
+  align-content: center;
+}
+
+.title {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

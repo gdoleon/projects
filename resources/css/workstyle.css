@@ -1,0 +1,181 @@
+body {
+  font-family: ubuntu;
+  font-size: 16px;
+  background-color: white;
+  color: #414141;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+p {
+  color: #676767;
+  line-height: 1.2;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+/* Nav Bar*/
+.container-navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.top-bar {
+  display: flex;
+  height: 3rem;
+  padding: 0px 6rem 0px 6rem;
+  position: sticky;
+}
+
+.top-bar a {
+  color: white;
+}
+
+.logo-text {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  color: white;
+}
+
+nav {
+  color: white;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5rem;
+}
+
+.social-links {
+  display: flex;
+  width: 12rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Hero image */
+.hero-mbc {
+  width: 100%;
+  height: 52rem;
+  overflow: hidden;
+  background-image: url(../mbc/postcard_micro.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Intro Box */
+.intro-box {
+  display: flex;
+  height: 8rem;
+  background-color: #EBEBEB;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  width: 85%;
+  margin: 0px auto;
+  align-items: center;
+}
+
+.project-title {
+  width: 35rem;
+}
+
+/* Project bar */
+.project-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 3rem 0px 4rem 0px;
+}
+
+/* Project description */
+.section-a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 6rem;
+}
+
+.textbody1 {
+  width: 30%
+}
+
+.description-image {
+  display: flex;
+  align-items: center;
+  height: 40rem;
+  width: 60%;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+/* Approach */
+.copy {
+  width: 30%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 1rem;
+  height: 1rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  background: #F36A36;
+}
+
+.img-style1 {
+  display: block;
+  height: 35rem;
+  width: 60%;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-height: 100%;
+  width: auto;
+}
