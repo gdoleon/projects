@@ -205,6 +205,11 @@ img {
   width: 100%;
 }
 
+@media only screen and (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   .top-bar {
@@ -225,6 +230,7 @@ img {
 
   .project-info {
     padding-left: 3rem;
+    text-align: center;
   }
 
   .description-image {
@@ -267,7 +273,7 @@ img {
   }
 
   .hero-mbc {
-    height: 70rem;
+    height: 74rem;
   }
 
   .intro-box {
