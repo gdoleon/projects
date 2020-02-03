@@ -12,6 +12,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 h3 {
@@ -270,15 +271,25 @@ img {
   }
 
   .intro-box {
-    height: 50rem;
+    height: 55rem;
+  }
+
+  .project-title {
+    text-align: center;
   }
 
   .container1 {
     flex-direction: column;
+    width: 90%;
+  }
+
+  .container2 {
+    width: 90%;
   }
 
   .project-info {
     padding-top: 5rem;
+    padding-left: 0;
   }
 
   h1 {

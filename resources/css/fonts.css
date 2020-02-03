@@ -4,3 +4,10 @@
   font-style: normal;
   font-weight: normal;
 }
+
+@font-face {
+  src: url(../Ubuntu/Ubuntu-Bold.woff) format(woff);
+  font-family: ubuntu;
+  font-style: normal;
+  font-weight: bold;
+}
