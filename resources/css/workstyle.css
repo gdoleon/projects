@@ -206,6 +206,22 @@ img {
 
 
 @media only screen and (max-width: 1024px) {
+  .top-bar {
+    height: 10rem;
+  }
+
+  .logo-text {
+    font-size: 3rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .social-links {
+    display: none;
+  }
+
   .project-info {
     padding-left: 3rem;
   }
@@ -250,7 +266,7 @@ img {
   }
 
   .hero-mbc {
-    height: 65rem;
+    height: 70rem;
   }
 
   .intro-box {
