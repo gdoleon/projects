@@ -207,7 +207,7 @@ img {
 }
 
 @media only screen and (min-width: 992px) {
-  .navbar-toggler {
+    .menu-wrap {
     display: none;
   }
 }
