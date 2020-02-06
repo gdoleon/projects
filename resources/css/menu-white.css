@@ -1,19 +1,14 @@
-:root {
-  --color1: rgba(0, 0, 0, 0.05);
-  --color2: white;
-}
-
 header {
-  background: var(--color1);
+  background: #EBEBEB;
   position: fixed;
   width: 100%;
   z-index: 3;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
   transition: background .4s ease;
 }
 
 .header-scrolled {
   background: var(--color2);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-fixed-top.scrolled {
@@ -46,7 +41,7 @@ header .logo {
   display: block;
   font-size: 3.5rem;
   padding: 3rem 2rem;
-  color: #B0B0B0;
+  color: #414141;
 }
 
 header .menu {
