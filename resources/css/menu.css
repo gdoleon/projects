@@ -1,10 +1,5 @@
-:root {
-  --color1: rgba(0, 0, 0, 0.05);
-  --color2: white;
-}
-
 header {
-  background: var(--color1);
+  background: rgba(0, 0, 0, 0.05);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -12,7 +7,12 @@ header {
 }
 
 .header-scrolled {
-  background: var(--color2);
+  background: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.header-scrolled-2 {
+  background: white;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
