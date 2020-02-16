@@ -1,9 +1,9 @@
 header {
-  background: #EBEBEB;
+  background: white;
   position: fixed;
   width: 100%;
   z-index: 3;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);*/
   transition: background .4s ease;
 }
 
@@ -26,6 +26,7 @@ header ul{
 header ul a {
   display: block;
   text-align: center;
+  font-weight: lighter;s
   color: #777777;
   font-size: 3rem;
   padding: 3rem 2rem;
@@ -40,8 +41,8 @@ header .logo {
   float: left;
   display: block;
   font-size: 3.5rem;
-  padding: 3rem 2rem;
-  color: #414141;
+  padding: 3rem 0;
+  color: #777777;
 }
 
 header .menu {
@@ -117,6 +118,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
 @media only screen and (min-width:992px) {
   header {
     position: absolute;
+    background: #EBEBEB;
   }
 
   header li {
@@ -141,20 +143,19 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     float: left;
     display: block;
     font-size: 1.5rem;
-    padding: 1rem 3rem;
-    color: #B0B0B0;
+    padding: 1rem 0;
+    color: #777777;
   }
 
   .bottom-a {
     padding-bottom: 0px;
-    padding-right: 3rem;
   }
 
   header ul a {
     display: block;
     text-align: center;
     color: #777777;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem 2rem;
     text-decoration: none;
   }

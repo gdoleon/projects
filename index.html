@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Gerardo Leon</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
     <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../resources/css/fonts.css">
+    <link rel="stylesheet" href="resources/css/fonts.css">
     <link rel="stylesheet" href="resources/css/menu-white.css">
     <link href="resources/css/style.css" rel="stylesheet" type="text/css">
   </head>
@@ -13,14 +16,17 @@
 
     <!-- Nav Bar -->
     <header>
-      <a href="../index.html"class="logo">gerardoleon.</a>
-      <input class="menu-btn" type="checkbox" id="menu-btn"/>
-      <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
-      <ul class="menu">
-        <li><a href="projects">Projects</a></li>
-        <li><a href="about">About</a></li>
-        <li class="bottom-a"><a href="contact">Contact</a></li>
-      </ul>
+      <div class="container">
+        <a href="../index.html"class="logo">gerardoleon.</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
+          <li><a href="projects">Projects</a></li>
+          <li><a href="about">About</a></li>
+          <li class="bottom-a"><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+
     </header>
 
 
@@ -37,38 +43,63 @@
     <div class="container catalogue">
       <div class="grid">
         <div class="row">
-          <div class="grid-item">
-            <div class="thumbnail">
-              <a href="#">
-                <img src="resources/luma/tp__9135@2x.png" alt="">
-              </a>
+
+          <div class="col-sm-12 col-md-4 grid-item">
+            <div class="thumbnail luma">
             </div>
             <div class="title">
-              <h4>Luma Case Study</h4>
+              <h4>Luma</h4>
               <span>2019</span>
             </div>
           </div>
-          <div class="grid-item">
-            <div class="thumbnail">
-              <a href="pages/the_microbiomes_collective.html">
-                <img src="resources/mbc/mbgf30.gif" alt="">
-              </a>
+          <div class="col-sm-12 col-md-4 grid-item">
+            <div class="thumbnail aptus">
             </div>
+            <div class="title">
+              <h4>Aptus Pro</h4>
+              <span>2017</span>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 grid-item">
+            <a href="pages/the_microbiomes_collective.html">
+              <div class="thumbnail mbc">
+              </div>
+            </a>
             <div class="title">
               <h4>The Microbiomes Collective</h4>
               <span>2017</span>
             </div>
           </div>
-          <div class="grid-item">
-          </div>
+
         </div>
+
         <div class="row">
-          <div class="grid-item">
+
+          <div class="col-sm-12 col-md-4 grid-item">
+            <div class="thumbnail playground">
+            </div>
+            <div class="title">
+              <h4>Playground</h4>
+              <span>2013</span>
+            </div>
           </div>
-          <div class="grid-item">
+          <div class="col-sm-12 col-md-4 grid-item">
+            <div class="thumbnail tx">
+            </div>
+            <div class="title">
+              <h4>Tx e-rickshaw</h4>
+              <span>2013</span>
+            </div>
           </div>
-          <div class="grid-item">
+          <div class="col-sm-12 col-md-4 grid-item">
+            <div class="thumbnail pablo">
+            </div>
+            <div class="title">
+              <h4>Pablo</h4>
+              <span>2013</span>
+            </div>
           </div>
+
         </div>
       </div>
     </div>

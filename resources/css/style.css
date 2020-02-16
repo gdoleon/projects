@@ -19,6 +19,10 @@ h3 {
   font-weight: lighter;
 }
 
+h4 {
+  font-weight: bold;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -82,7 +86,7 @@ nav {
 
 .container.intro {
   display: flex;
-  height: 50rem;
+  height: 90vh;
   align-items: center
 }
 
@@ -112,26 +116,59 @@ span {
   /*border: 1px solid black;*/
 }
 
-.row {
+/*.row {
   display: flex;
   justify-content: space-between;
-  padding-top: 7rem;
+  padding-top: 2rem;
+}*/
+
+.row {
+  margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 .grid-item {
   height: 400px;
-  width: 30%;
+  /*width: 30%;*/
   /*border: 1px solid black;*/
 }
 
 .thumbnail {
+  background-size: cover;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   height: 85%;
   /*border: 1px solid black;*/
   overflow: hidden;
-  align-items: center;
-  background-color: white;
-  justify-content: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.luma {
+  background-image: url("../luma/tp__9135.png");
+}
+
+.aptus {
+  background-image: url("../aptus/aptuspro-4mb.png");
+}
+
+.mbc {
+  background-image: url("../mbc/mbgf30.gif");
+  background-size: contain;
+}
+
+.playground {
+  background-image: url("../playground/playground-tb.png");
+}
+
+.tx {
+  background-image: url("../tx/txcover_800.png");
+}
+
+.pablo {
+  background-image: url("../pablo/pablo-cover.png");
 }
 
 .title {
@@ -184,7 +221,7 @@ span {
   }
 
   .container {
-    width: 90%;
+    width: 98%;
   }
 
   .row {
@@ -193,7 +230,6 @@ span {
   }
 
   .grid-item {
-    width: 90%;
     height: 700px;
     padding-bottom: 5rem;
   }
