@@ -44,7 +44,6 @@ a:link {
 
 a:visited {
   text-decoration: none;
-  color: inherit;
 }
 
 a:hover {
@@ -134,16 +133,21 @@ nav {
   padding: 3rem 0px 4rem 0px;
 }
 
-.row2 {
-  display: flex;
-  align-items: center;
-  padding: 4rem 0;
-}
-
 .row {
   display: flex;
   align-items: center;
   padding-bottom: 6rem;
+}
+
+.row2 {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: column;
 }
 
 .description-image {
@@ -252,6 +256,10 @@ footer .logo {
 }
 
 @media only screen and (max-width: 1024px) {
+  .container {
+    width: 95%;
+  }
+
   .top-bar {
     height: 10rem;
   }
@@ -264,20 +272,45 @@ footer .logo {
     display: none;
   }
 
-  /*.social-links {
-    display: none;
-  }*/
+  .project-title {
+    padding-bottom: 3rem;
+  }
 
-    .description-image {
-    width: 100%;
+  .description-image {
+    height: auto;
+    width: auto;
+    padding-bottom: 4rem;
   }
 
   .copy {
-    width: 100%;
+    padding-top: 2rem;
   }
 
   .img-style1 {
+    padding-top: 4rem;
+  }
+
+  .image-style2 {
     width: 100%;
+    padding-top: 4rem;
+  }
+
+  .image-style3 {
+    padding-top: 4rem;
+    padding-bottom: 0;
+  }
+
+  .row {
+    display: initial;
+  }
+
+  .row2 {
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+
+  .row3 {
+    flex-direction: column-reverse;
   }
 
   .section-a {
@@ -293,19 +326,9 @@ footer .logo {
     flex-direction: column-reverse;
   }
 
-  .copy {
-    padding-top: 4rem;
-  }
-
   img {
     width: 100%;
   }
-
-  /*.two-grid {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }*/
 
   .hero-mbc {
     height: 74rem;
@@ -317,10 +340,6 @@ footer .logo {
 
   .container1 {
     flex-direction: column;
-    width: 90%;
-  }
-
-  .container2 {
     width: 90%;
   }
 

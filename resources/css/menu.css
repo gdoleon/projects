@@ -51,13 +51,14 @@ header .logo {
   display: block;
   font-size: 3.5rem;
   padding: 3rem 2rem;
-  color: #777777;
+  color: #949494;
 }
 
 header .menu {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
+  color: #949494;
 }
 
 header .menu-icon {
@@ -127,6 +128,14 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
 @media only screen and (min-width:992px) {
   header {
     position: absolute;
+    /*test code*/
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*newcode*/
+  .nav-right {
+    display: flex;
   }
 
   header li {
@@ -138,8 +147,8 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   }
 
   header .menu {
-    clear: none;
-    float: right;
+/*    clear: none;
+    float: right;*/
     max-height: none;
   }
 
@@ -148,21 +157,32 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     width: 12rem;
     align-items: center;
     justify-content: space-between;
+    padding-right: 3rem;
     z-index: 4;
   }
 
   .social-li {
-    background-image: url("../linkedin_gray.png");
-    height: 26px;
-    width: 26px;
+    background-image: url("../linkedin-grey.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 21px;
   }
 
   .social-be {
-    background-image:
+    background-image: url("../behance-grey.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 33px;
   }
 
   .social-in {
-    background-image:
+    background-image: url("../instagram-grey.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
   }
 
   header .menu-icon {
@@ -174,7 +194,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     display: block;
     font-size: 1.5rem;
     padding: 1rem 3rem;
-    color: #B0B0B0;
+    color: #949494;
   }
 
   .bottom-a {
