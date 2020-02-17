@@ -11,3 +11,17 @@
   font-style: normal;
   font-weight: bold;
 }
+
+@font-face {
+  src: url(../Ubuntu/Ubuntu-Medium.woff) format(woff);
+  font-family: ubuntu;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(../Ubuntu/Ubuntu-Light.woff) format(woff);
+  font-family: ubuntu;
+  font-style: normal;
+  font-weight: lighter;
+}

@@ -1,5 +1,5 @@
 header {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.12);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -7,16 +7,18 @@ header {
 }
 
 .social-links {
+  height: 3rem;
   display: none;
 }
 
 .header-scrolled {
-  background: white;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  background: #c2c9d1;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.2);
+  color: black;
 }
 
 .header-scrolled-2 {
-  background: white;
+  background: #c2c9d1;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
@@ -35,7 +37,7 @@ header ul{
 header ul a {
   display: block;
   text-align: center;
-  font-weight: lighter;
+  font-weight: medium;
   color: #777777;
   font-size: 3rem;
   padding: 3rem 2rem;
@@ -51,14 +53,14 @@ header .logo {
   display: block;
   font-size: 3.5rem;
   padding: 3rem 2rem;
-  color: #949494;
+  color: white;
 }
 
 header .menu {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
-  color: #949494;
+  color: white;
 }
 
 header .menu-icon {
@@ -69,7 +71,7 @@ header .menu-icon {
 }
 
 header .menu-icon .nav-icon {
-  background: #777777;
+  background: white;
   display: block;
   height: 4px;
   width: 4rem;
@@ -78,7 +80,7 @@ header .menu-icon .nav-icon {
 }
 
 header .menu-icon .nav-icon:before {
-  background: #777777;
+  background: white;
   content: "";
   display: block;
   height: 100%;
@@ -89,7 +91,7 @@ header .menu-icon .nav-icon:before {
 }
 
 header .menu-icon .nav-icon:after {
-  background: #777777;
+  background: white;
   content: "";
   display: block;
   height: 100%;
@@ -162,7 +164,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   }
 
   .social-li {
-    background-image: url("../linkedin-grey.png");
+    background-image: url("../linkedin-white.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 20px;
@@ -170,7 +172,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   }
 
   .social-be {
-    background-image: url("../behance-grey.png");
+    background-image: url("../behance-white.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 20px;
@@ -178,7 +180,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   }
 
   .social-in {
-    background-image: url("../instagram-grey.png");
+    background-image: url("../instagram-white.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 20px;
@@ -194,7 +196,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     display: block;
     font-size: 1.5rem;
     padding: 1rem 3rem;
-    color: #949494;
+    color: white;
   }
 
   .bottom-a {
@@ -207,6 +209,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     text-align: center;
     color: #777777;
     font-size: 1rem;
+    font-weight: 500;
     padding: 1rem 2rem;
     text-decoration: none;
   }

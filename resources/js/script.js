@@ -1,5 +1,5 @@
 const header = document.querySelector("header");
-const sectionOne = document.querySelector(".hero-mbc");
+const sectionOne = document.querySelector(".hero-mbc, .hero-tx");
 
 const sectionOneOptions = {
   rootMargin: "-200px 0px 0px 0px"
