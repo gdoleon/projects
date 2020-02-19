@@ -135,7 +135,6 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     justify-content: space-between;
   }
 
-  /*newcode*/
   .nav-right {
     display: flex;
   }
@@ -149,8 +148,6 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   }
 
   header .menu {
-/*    clear: none;
-    float: right;*/
     max-height: none;
   }
 
