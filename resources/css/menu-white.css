@@ -26,7 +26,7 @@ header ul{
 header ul a {
   display: block;
   text-align: center;
-  font-weight: lighter;s
+  font-weight: normal;
   color: #777777;
   font-size: 3rem;
   padding: 3rem 2rem;
@@ -156,6 +156,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     text-align: center;
     color: #777777;
     font-size: 1rem;
+    font-weight: 500;
     padding: 1rem 2rem;
     text-decoration: none;
   }

@@ -5,6 +5,57 @@ html {
   color: #414141;
 }
 
+/* Loader Animation */
+.loader-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 5;
+}
+
+.loader-dots {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65px;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #777777;
+}
+
+.dot-1 {
+  animation-name: flow;
+  animation-duration: .4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.dot-2 {
+  animation: flow .4s ease .2s infinite alternate;
+}
+
+.dot-3 {
+  animation: flow .4s ease .4s infinite alternate;
+}
+
+@keyframes flow {
+  from {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: .20;
+    transform: scale(.75);
+  }
+}
+
 h1 {
   font-size: 3.5rem;
   font-weight: bold;
@@ -39,7 +90,6 @@ a {
 
 a:link {
   text-decoration: none;
-  color: inherit;
 }
 
 a:visited {
@@ -48,11 +98,11 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  color: #777777;
 }
 
 a:active {
   text-decoration: none;
-  color: inherit;
 }
 
 
@@ -114,7 +164,6 @@ nav {
 
 /* Intro Box */
 .container {
-/*  display: flex;*/
   width: 80%;
   padding: 0;
 }
@@ -130,10 +179,6 @@ nav {
 .container2 {
   flex-direction: column;
 }
-
-/*.project-title {
-  width: 35rem;
-}*/
 
 /* Project bar */
 .project-bar {

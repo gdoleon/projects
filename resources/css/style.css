@@ -5,6 +5,57 @@ body {
   color: #414141;
 }
 
+/* Loader Animation */
+.loader-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 5;
+}
+
+.loader-dots {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65px;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #777777;
+}
+
+.dot-1 {
+  animation-name: flow;
+  animation-duration: .4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.dot-2 {
+  animation: flow .4s ease .2s infinite alternate;
+}
+
+.dot-3 {
+  animation: flow .4s ease .4s infinite alternate;
+}
+
+@keyframes flow {
+  from {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: .20;
+    transform: scale(.75);
+  }
+}
+
 h1 {
   font-size: 3.5rem;
   font-weight: bold;
@@ -33,6 +84,7 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  color: black;
 }
 
 a:active {
@@ -83,6 +135,10 @@ nav {
   margin: 0px auto;
   width: 80%;
   /*border: 1px solid black;*/
+}
+
+#projects {
+  padding-top: 4rem;
 }
 
 .container.intro {

@@ -14,6 +14,18 @@
 
   <body>
 
+    <!-- Loader -->
+    <div class="loader-wrapper">
+      <div class="loader-dots">
+        <div class="dot dot-1">
+        </div>
+        <div class="dot dot-2">
+        </div>
+        <div class="dot dot-3">
+        </div>
+      </div>
+    </div>
+
     <!-- Nav Bar -->
     <header>
       <a href="../index.html"class="logo">gerardoleon.</a>
@@ -21,7 +33,7 @@
         <input class="menu-btn" type="checkbox" id="menu-btn"/>
         <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
         <ul class="menu">
-          <li><a href="projects">Projects</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
           <li><a href="about">About</a></li>
           <li class="bottom-a"><a href="contact">Contact</a></li>
         </ul>
@@ -668,9 +680,14 @@
 
 
     <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous">
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript">
+        $(window).on("load", function(){
+          $(".loader-wrapper").fadeOut("slow");
+    });
     </script>
     <script src="../resources/js/script.js">
     </script>

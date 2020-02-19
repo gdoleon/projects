@@ -13,6 +13,18 @@
   </head>
 
   <body>
+    <!-- Loader -->
+    <div class="loader-wrapper">
+      <div class="loader-dots">
+        <div class="dot dot-1">
+        </div>
+        <div class="dot dot-2">
+        </div>
+        <div class="dot dot-3">
+        </div>
+      </div>
+    </div>
+
     <!-- Nav Bar -->
     <header>
       <a href="../index.html"class="logo">gerardoleon.</a>
@@ -135,11 +147,15 @@
       <p>Copyright &copy 2020 Gerardo Leon</p>
     </footer>
 
-
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous">
+    </script>
+    <script type="text/javascript">
+        $(window).on("load", function(){
+          $(".loader-wrapper").fadeOut("slow");
+    });
     </script>
     <script src="../resources/js/script.js">
     </script>
