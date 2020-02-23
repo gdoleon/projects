@@ -5,15 +5,28 @@ body {
   color: #414141;
 }
 
+.white {
+  position: sticky;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  background-color: pink;
+  z-index: 5;
+}
+
+.square {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+}
+
 /* Loader Animation */
 .loader-wrapper {
-  position: absolute;
-  background-color: white;
-  width: 100vw;
+  position: sticky;
   height: 100vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 0;
+  bottom: 0;
+  background-color: white;
   z-index: 5;
 }
 
@@ -233,6 +246,18 @@ span {
   background-image: url("../pablo/pablo-cover.png");
 }
 
+.gocase {
+  background-image: url("../gocase/gocase-thumbnail.jpg");
+}
+
+.cs {
+  background-image: url("../cs/cs-thumbnail.jpg");
+}
+
+.suno {
+  background-image: url("../suno/suno-thumbnail.jpg");
+}
+
 .title {
   height: 15%;
   display: flex;
@@ -388,8 +413,8 @@ footer .social-links {
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 2rem;
-    height: 4rem;
-    width: 5rem;
+    height: 3rem;
+    width: 4rem;
   }
 
   .social-be {
@@ -397,15 +422,15 @@ footer .social-links {
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 2rem;
-    height: 4rem;
-    width: 7rem;
+    height: 3rem;
+    width: 6rem;
   }
 
   .social-in {
     background-image: url("../instagram-grey@2x.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
   }
 }
