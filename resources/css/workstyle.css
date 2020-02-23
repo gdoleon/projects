@@ -376,6 +376,7 @@ footer .social-links {
 @media only screen and (max-width: 1024px) {
   .container {
     width: 95%;
+    overflow: hidden;
   }
 
   .top-bar {
@@ -419,8 +420,28 @@ footer .social-links {
     padding-bottom: 0;
   }
 
+  .split {
+    height: 40rem;
+  }
+
+  .luma-4 {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .luma-8 {
+    margin: 15px 0px 0px 0px;
+  }
+
+  .device-4 {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .device-8 {
+    margin: 15px 0px 0px 0px;
+  }
+
   .row {
-    display: initial;
+    display: block;
   }
 
   .row2 {
@@ -434,6 +455,10 @@ footer .social-links {
 
   .row-centered {
     align-items: center;
+  }
+
+  .row-wrap-sm{
+    flex-wrap: wrap;
   }
 
   .section-a {
