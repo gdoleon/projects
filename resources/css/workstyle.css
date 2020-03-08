@@ -80,8 +80,15 @@ h4 {
 }
 
 p {
+  font-family: Raleway;
   color: #676767;
   line-height: 1.2;
+}
+
+figcaption {
+  display: block;
+  font-size: .8rem;
+  color: #8A8A8A;
 }
 
 a {
@@ -179,6 +186,10 @@ nav {
 }
 
 /* Intro Box */
+.synopsis {
+  font-family: ubuntu;
+}
+
 .container {
   width: 70%;
   padding: 0;
@@ -201,7 +212,7 @@ nav {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 3rem 0px 4rem 0px;
+  padding: 0 15px 2rem 15px;
 }
 
 .row {
@@ -228,7 +239,6 @@ nav {
 .description-image {
   display: block;
   align-items: center;
-  /*height: 30rem;*/
   width: 60%;
   overflow: hidden;
   text-align: center;
@@ -237,6 +247,19 @@ nav {
 .description-image
 img {
   margin-top: -60px;
+}
+
+.featured-in {
+  display: flex;
+  height: 15rem;
+  width: 40rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.featured {
+  width: 40%;
 }
 
 
@@ -406,6 +429,24 @@ footer .social-links {
     display: none;
   }
 
+  figcaption {
+    font-size: 2rem;
+    display: block;
+    color: #8A8A8A;
+  }
+
+  .featured-in {
+    flex-direction: column;
+    height: 40rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .featured {
+    width: 65%;
+    padding: 1rem 0 1rem 0;
+  }
+
   .project-title {
     padding-bottom: 3rem;
     text-align: center;
@@ -503,6 +544,10 @@ footer .social-links {
 
   .project-info p {
     text-align: center;
+  }
+
+  .synopsis {
+    font-family: ubuntu;
   }
 
   .container1 {

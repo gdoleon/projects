@@ -1,27 +1,34 @@
 @font-face {
-  src: url(../Ubuntu/Ubuntu-Regular.woff) format(woff);
+  src: url(../fonts/ubuntu/Ubuntu-Regular.woff) format(woff);
   font-family: ubuntu;
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  src: url(../Ubuntu/Ubuntu-Bold.woff) format(woff);
+  src: url(../fonts/ubuntu/Ubuntu-Bold.woff) format(woff);
   font-family: ubuntu;
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
-  src: url(../Ubuntu/Ubuntu-Medium.woff) format(woff);
+  src: url(../fonts/ubuntu/Ubuntu-Medium.woff) format(woff);
   font-family: ubuntu;
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
-  src: url(../Ubuntu/Ubuntu-Light.woff) format(woff);
+  src: url(../fonts/ubuntu/Ubuntu-Light.woff) format(woff);
   font-family: ubuntu;
   font-style: normal;
   font-weight: lighter;
+}
+
+@font-face {
+  src: url(../fonts/raleway/Raleway-Medium.woff) format(woff);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
 }
