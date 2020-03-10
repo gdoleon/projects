@@ -32,3 +32,10 @@
   font-style: normal;
   font-weight: normal;
 }
+
+@font-face {
+  src: url(../fonts/raleway/Raleway-Bold.woff) format(woff);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+}

@@ -85,6 +85,11 @@ p {
   line-height: 1.2;
 }
 
+.bold {
+  font-family: Raleway;
+  font-weight: bold;
+}
+
 figcaption {
   display: block;
   font-size: .8rem;
@@ -113,6 +118,16 @@ a:hover {
 
 a:active {
   text-decoration: none;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+ol {
+  list-style: upper-alpha;
+  margin-left: 2rem;
 }
 
 
@@ -212,7 +227,8 @@ nav {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 0 15px 2rem 15px;
+  padding: 2rem 15px 2rem 15px;
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .row {
