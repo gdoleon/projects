@@ -200,6 +200,10 @@ nav {
   background-image: url("../playground/playground-hero.jpg");
 }
 
+.pablo {
+  background-image: url("../pablo/pablo-hero.jpg");
+}
+
 /* Intro Box */
 .synopsis {
   font-family: ubuntu;
@@ -488,12 +492,18 @@ footer .social-links {
   }
 
   .image-style3 {
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
     padding-top: 4rem;
     padding-bottom: 0;
   }
 
   .image-style4 {
     padding-top: 15rem;
+  }
+
+  .section-img {
   }
 
   .split {
@@ -552,6 +562,8 @@ footer .social-links {
 
   img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .hero {
@@ -594,6 +606,16 @@ footer .social-links {
     color: #676767;
     line-height: 1.2;
     font-size: 2.5rem;
+  }
+
+  ol {
+    font-size: 2.2rem;
+    margin-left: 3rem;
+  }
+
+  ul {
+    font-size: 2.2rem;
+    margin-left: 3rem;
   }
 
   .project-bar {
