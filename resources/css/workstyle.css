@@ -282,7 +282,6 @@ img {
   width: 40%;
 }
 
-
 /* Approach */
 .title {
   display: flex;
@@ -385,6 +384,15 @@ footer {
   color: #B0B0B0;
 }
 
+.footer-btn a {
+  padding: 3rem 2rem;
+  font-weight: bold;
+}
+
+.bottom-a {
+  font-weight: bold;
+}
+
 .footer1 {
   display: flex;
   justify-content: space-between;
@@ -393,7 +401,7 @@ footer {
 footer p {
   padding-left: 3rem;
   font-weight: lighter;
-  color: #B0B0B0;
+  color: color: black;
 }
 
 footer li {
@@ -687,6 +695,5 @@ footer .social-links {
     height: 3rem;
     width: 3rem;
   }
-
 
 }
