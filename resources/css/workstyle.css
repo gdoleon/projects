@@ -130,6 +130,10 @@ ol {
   margin-left: 2rem;
 }
 
+.nu {
+  list-style: decimal;
+}
+
 
 /* Nav Bar*/
 .container-navbar {
@@ -202,6 +206,14 @@ nav {
 
 .pablo {
   background-image: url("../pablo/pablo-hero.jpg");
+}
+
+.gocase {
+  background-image: url("../gocase/gocase-hero4.jpg");
+}
+
+.cs {
+  background-image: url("../cs/cs-hero.jpg");
 }
 
 /* Intro Box */
