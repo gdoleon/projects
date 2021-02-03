@@ -405,11 +405,6 @@ footer {
   font-weight: bold;
 }
 
-.footer1 {
-  display: flex;
-  justify-content: space-between;
-}
-
 footer p {
   padding-left: 3rem;
   font-weight: lighter;
@@ -422,6 +417,10 @@ footer li {
 
 footer li a {
   padding: 1rem 2rem;
+}
+
+footer ul {
+  list-style: none;
 }
 
 footer ul a {
@@ -447,8 +446,54 @@ footer .logo {
   color: #B0B0B0;
 }
 
-footer .social-links {
-  display: none;
+.footer {
+    padding-top: 55px;
+}
+
+.footer1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.social-links {
+  display: flex;
+  height: 3rem;
+  width: 12rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-right {
+    display: flex;
+}
+
+  .social-li-g {
+  background-image: url("../linkedin-grey.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 2rem;
+  height: 20px;
+  width: 21px;
+}
+
+.social-be-g {
+  background-image: url("../behance-grey.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 2rem;
+  height: 20px;
+  width: 33px;
+}
+
+.social-in-g {
+  background-image: url("../instagram-grey.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
 }
 
 @media only screen and (max-width: 1024px) {

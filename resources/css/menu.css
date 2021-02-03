@@ -59,6 +59,7 @@ header .logo {
 header .menu {
   clear: both;
   max-height: 0;
+  padding-right: 100px;
   transition: max-height .2s ease-out;
   color: white;
 }
