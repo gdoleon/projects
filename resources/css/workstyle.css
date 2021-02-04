@@ -462,7 +462,6 @@ footer .logo {
   height: 3rem;
   width: 12rem;
   align-items: center;
-  justify-content: space-between;
 }
 
 @media only screen and (min-width: 992px) {
@@ -496,7 +495,13 @@ footer .logo {
   width: 20px;
 }
 
+}
+
 @media only screen and (max-width: 1024px) {
+  .social-links {
+    display: none;
+}
+
   .container {
     width: 95%;
     overflow: hidden;
@@ -727,7 +732,7 @@ footer .logo {
     padding-left: 3rem;
   }
 
-  .social-li {
+  .social-li-g {
     background-image: url("../linkedin-grey@2x.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -736,7 +741,7 @@ footer .logo {
     width: 4rem;
   }
 
-  .social-be {
+  .social-be-g {
     background-image: url("../behance-grey@2x.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -745,7 +750,7 @@ footer .logo {
     width: 6rem;
   }
 
-  .social-in {
+  .social-in-g {
     background-image: url("../instagram-grey@2x.png");
     background-size: contain;
     background-repeat: no-repeat;

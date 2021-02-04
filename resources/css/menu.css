@@ -128,6 +128,12 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   top: 0;
 }
 
+@media only screen and (max-width: 1024px) {
+  header .menu {
+    padding-right: 0;
+  }
+}
+
 @media only screen and (min-width:992px) {
   header {
     position: absolute;
