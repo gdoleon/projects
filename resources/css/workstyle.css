@@ -184,6 +184,11 @@ nav {
   background-position: center;
   position: relative;
 }
+
+.liberty {
+  background-image: url("../liberty/liberty_hero.jpg");
+}
+
 .mbc {
   background-image: url("../mbc/postcard_micro.png");
 }
@@ -236,6 +241,13 @@ nav {
 
 .container2 {
   flex-direction: column;
+}
+
+.containercolumn1 {
+  height: 500px;
+  float: left;
+  width: 50%;
+  padding: 5px;
 }
 
 /* Project bar */
@@ -312,6 +324,15 @@ img {
   height: 30rem;
 }
 
+.liberty-wide1 {
+  width: 100%;
+  height: 500px;
+  background-image: url("../liberty/liberty_enclosure_render6.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
 .luma-4 {
   height: 100%;
   background-image: url("../luma/fg-2.jpg");
@@ -363,6 +384,10 @@ img {
 
 .image-style4 {
   padding-top: 25rem;
+}
+
+.image-style5 {
+  background-size: cover;
 }
 
 .right-image {
@@ -580,6 +605,15 @@ footer .logo {
     height: 40rem;
   }
 
+  .liberty-wide1 {
+    width: 100%;
+    height: 600px;
+    background-image: url("../liberty/liberty_enclosure_render6.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+  }
+
   .luma-4 {
     margin: 0px 0px 15px 0px;
   }
@@ -588,11 +622,11 @@ footer .logo {
     margin: 15px 0px 0px 0px;
   }
 
-  .device-4 {
+  .padding-bottom {
     margin: 0px 0px 15px 0px;
   }
 
-  .device-8 {
+  .padding-top {
     margin: 15px 0px 0px 0px;
   }
 
