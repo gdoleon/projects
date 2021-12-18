@@ -1,5 +1,5 @@
 @font-face {
-  src: url(../fonts/raleway/Raleway-Medium.woff);
+  src: url(../fonts/raleway/Raleway-Light.woff);
   font-family: raleway;
 }
 
@@ -75,6 +75,7 @@ h1 {
 }
 
 h2 {
+  font-family: ubuntu;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -112,6 +113,14 @@ a {
   text-decoration: inherit;
   font-weight: inherit;
   cursor: pointer;
+}
+
+.logo {
+  font-family: ubuntu;
+}
+
+.menu {
+  font-family: ubuntu;
 }
 
 a:link {

@@ -1,5 +1,15 @@
-body {
+@font-face {
+  src: url(../fonts/raleway/Raleway-Light.woff);
+  font-family: raleway;
+}
+
+@font-face {
+  src: url(../fonts/ubuntu/Ubuntu-Medium.woff);
   font-family: ubuntu;
+}
+
+body {
+  font-family: raleway;
   font-size: 16px;
   background-color: #EBEBEB;
   color: #414141;
@@ -75,11 +85,13 @@ body {
 }
 
 h1 {
+  font-family: ubuntu;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 h2 {
+  font-family: ubuntu;
   font-size: 1.5rem;
 }
 
@@ -111,6 +123,10 @@ a:active {
 
 
 /* Nav Bar*/
+.menu li{
+  font-weight: bold;
+}
+
 .top-bar {
   display: flex;
   height: 3rem;
@@ -119,6 +135,10 @@ a:active {
 
 .top-bar a {
   color: #414141;
+}
+
+.logo {
+  font-family: ubuntu;
 }
 
 .logo-text {
@@ -179,6 +199,40 @@ nav {
 }
 .container.contact {
   padding-left: 30px;
+}
+
+/* On Hover;*/
+.hov-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #0e83d6;
+}
+
+.hov-container:hover .overlay {
+  opacity: .95;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .intropic {
@@ -340,7 +394,7 @@ span {
   font-weight: bold;
   color: #414141;
   position: absolute;
-  top: 42%;
+  top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
