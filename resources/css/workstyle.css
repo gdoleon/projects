@@ -8,6 +8,11 @@
   font-family: ubuntu;
 }
 
+@font-face {
+  src: url(../fonts/ubuntu/Ubuntu-Bold.woff);
+  font-family: ubuntu-bold;
+}
+
 html {
   font-family: raleway;
   font-size: 16px;

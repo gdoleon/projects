@@ -160,27 +160,27 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   }
 
   .social-li {
-    background-image: url("../linkedin-grey.png");
+    background-image: url("../in.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 20px;
+    height: 21px;
     width: 21px;
   }
 
   .social-be {
-    background-image: url("../behance-grey.png");
+    background-image: url("../be.svg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 20px;
-    width: 33px;
+    width: 36px;
   }
 
   .social-in {
-    background-image: url("../instagram-grey.png");
+    background-image: url("../inst.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
+    height: 21px;
+    width: 21px;
   }
 
   header .menu-icon {
@@ -205,7 +205,6 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     text-align: center;
     color: #777777;
     font-size: 1rem;
-    font-weight: bold;
     padding: 1rem 2rem;
     text-decoration: none;
   }

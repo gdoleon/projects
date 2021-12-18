@@ -123,8 +123,8 @@ a:active {
 
 
 /* Nav Bar*/
-.menu li{
-  font-weight: bold;
+.menu {
+  font-family: ubuntu;
 }
 
 .top-bar {
