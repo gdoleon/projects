@@ -126,6 +126,7 @@ ul {
 }
 
 ol {
+  font-family: Raleway;
   list-style: upper-alpha;
   margin-left: 2rem;
 }

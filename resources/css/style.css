@@ -155,15 +155,20 @@ nav {
   /*border: 1px solid black;*/
 }
 
+.container-wide {
+  margin: 0px auto;
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+
 #projects {
   padding-top: 3rem;
 }
 
 .container.intro {
   display: flex;
-  height: 95vh;
+  height: 70vh;
   align-items: center;
-  border-bottom: solid 2px #CECECE;
 }
 
 .container.about {
@@ -204,8 +209,8 @@ nav {
   position: absolute;
   background-color: #EBEBEB;
   border: 0;
-  left: 35%;
   padding: 40px;
+  top: 25%;
 }
 
 .intro-text {
@@ -265,20 +270,25 @@ span {
 }
 
 .thumbnail {
+  border-radius: 0px;
+  border: none;
   background-size: cover;
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  height: 85%;
+  height: 100%;
   /*border: 1px solid black;*/
   overflow: hidden;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  padding: 0 0;
+}
+
+.col-md-4 {
+  padding: 0 0;
 }
 
 .liberty {
-  background-image: url("../tx/txcover_800.png");
+  background-image: url("../liberty/liberty_hero2.jpg");
 }
 
 .luma {
