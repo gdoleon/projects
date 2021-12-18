@@ -21,7 +21,7 @@
 
 @font-face {
   src: url(../fonts/ubuntu/Ubuntu-Light.woff) format(woff);
-  font-family: ubuntu;
+  font-family: ubuntu-light;
   font-style: normal;
   font-weight: lighter;
 }

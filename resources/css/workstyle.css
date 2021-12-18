@@ -1,5 +1,15 @@
-html {
+@font-face {
+  src: url(../fonts/raleway/Raleway-Medium.woff);
+  font-family: raleway;
+}
+
+@font-face {
+  src: url(../fonts/ubuntu/Ubuntu-Medium.woff);
   font-family: ubuntu;
+}
+
+html {
+  font-family: raleway;
   font-size: 16px;
   background-color: white;
   color: #414141;
@@ -75,12 +85,13 @@ h3 {
 }
 
 h4 {
+  font-family: ubuntu;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
 p {
-  font-family: Raleway;
+  font-weight: lighter;
   color: #676767;
   line-height: 1.2;
 }
