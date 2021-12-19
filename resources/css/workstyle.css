@@ -4,13 +4,8 @@
 }
 
 @font-face {
-  src: url(../fonts/ubuntu/Ubuntu-Medium.woff);
-  font-family: ubuntu;
-}
-
-@font-face {
-  src: url(../fonts/ubuntu/Ubuntu-Bold.woff);
-  font-family: ubuntu-bold;
+  src: url(../fonts/raleway/Raleway-Medium.woff);
+  font-family: raleway-medium;
 }
 
 html {
@@ -80,7 +75,7 @@ h1 {
 }
 
 h2 {
-  font-family: ubuntu;
+  font-family: raleway-medium;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -91,7 +86,7 @@ h3 {
 }
 
 h4 {
-  font-family: ubuntu;
+  font-family: raleway-medium;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -121,11 +116,11 @@ a {
 }
 
 .logo {
-  font-family: ubuntu;
+  font-family: raleway-medium;
 }
 
 .menu {
-  font-family: ubuntu;
+  font-family: raleway-medium;
 }
 
 a:link {
@@ -248,10 +243,6 @@ nav {
 }
 
 /* Intro Box */
-.synopsis {
-  font-family: ubuntu;
-}
-
 .container {
   width: 70%;
   padding: 0;
@@ -702,10 +693,6 @@ footer .logo {
 
   .project-info p {
     text-align: center;
-  }
-
-  .synopsis {
-    font-family: ubuntu;
   }
 
   .container1 {

@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  src: url(../fonts/ubuntu/Ubuntu-Medium.woff);
-  font-family: ubuntu;
+  src: url(../fonts/raleway/Raleway-Medium.woff);
+  font-family: raleway-medium;
 }
 
 body {
@@ -85,13 +85,13 @@ body {
 }
 
 h1 {
-  font-family: ubuntu;
+  font-family: raleway-medium;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 h2 {
-  font-family: ubuntu;
+  font-family: raleway-medium;
   font-size: 1.5rem;
 }
 
@@ -124,7 +124,7 @@ a:active {
 
 /* Nav Bar*/
 .menu {
-  font-family: ubuntu;
+  font-family: raleway-medium;
 }
 
 .top-bar {
@@ -138,7 +138,7 @@ a:active {
 }
 
 .logo {
-  font-family: ubuntu;
+  font-family: raleway-medium;
 }
 
 .logo-text {
@@ -225,7 +225,7 @@ nav {
 
 .overlay-text {
   color: white;
-  font-size: 22px;
+  font-size: 1.6rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -460,9 +460,11 @@ footer .logo {
   padding-top: 55px;
 }
 
-/*footer .social-links {
-  display: none;
-}*/
+@media only screen (hover: hover) {
+  .hov-container:hover .overlay{
+    background: none;
+  }
+}
 
 @media only screen and (min-width: 992px) {
     .menu-wrap {
@@ -510,6 +512,10 @@ footer .logo {
     display: none;
   }
 
+  .overlay {
+    display: none;
+  }
+
   .container {
     width: 98%;
   }
@@ -533,7 +539,6 @@ footer .logo {
 
   .grid-item {
     height: 1000px;
-    padding-bottom: 5rem;
   }
 
   .intropic {
@@ -548,9 +553,15 @@ footer .logo {
     margin-top: 100px;
   }
 
-  .intro-text {
+  .intro-text1 {
     position: initial;
+    top: 300px;
     padding: 15px 15px 60px 15px;
+    margin-top: 20vh;
+  }
+
+  .intro-text1 img {
+    height: 200px;
   }
 
   .spacer1 {

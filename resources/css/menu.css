@@ -12,13 +12,13 @@ header {
 }
 
 .header-scrolled {
-  background: #c2c9d1;
+  background: #0e83d6;
   box-shadow: 0 3px 30px rgba(0, 0, 0, 0.2);
   color: black;
 }
 
 .header-scrolled-2 {
-  background: #c2c9d1;
+  background: #0e83d6;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
