@@ -382,9 +382,13 @@ img {
   margin-left: 15px;
 }
 
-.img-style1 {
-  display: block;
-  overflow: hidden;
+.next {
+  display: flex;
+  width: 50%;
+}
+
+.imgnext {
+  padding-right: 10px;
 }
 
 .image-style2 {
