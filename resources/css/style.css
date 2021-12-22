@@ -192,8 +192,7 @@ nav {
 }
 
 .container.about {
-  display: flex;
-  height: 100vh;
+  padding-top: 100px;
   align-items: center;
   border-bottom: solid 2px #CECECE;
 }
@@ -248,12 +247,7 @@ nav {
 }
 
 .intropic-2 {
-  /*position: absolute;*/
-  display: flex;
-  left: 0px;
-  /*width: 40%;*/
   height: 60vh;
-  align-items: flex-start;
   background-image: url("../about/about.jpg");
   background-size: cover;
   background-position: center;
@@ -268,11 +262,9 @@ nav {
 }
 
 .intro-text {
-  position: absolute;
   background-color: #EBEBEB;
   border: 0;
-  left: 45%;
-  padding: 40px;
+  padding: 0 40px 40px 40px;
 }
 
 .intro-text
@@ -526,17 +518,6 @@ footer .logo {
     width: 98%;
   }
 
-  .container.about {
-    flex-direction: column;
-    height: 100%;
-    width: 98%;
-  }
-
-  .row {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .grid-item {
     height: 1000px;
   }
@@ -554,9 +535,9 @@ footer .logo {
   }
 
   .intro-text {
-    position: relative;
-    left: 0;
+    padding: 40px 0px 0px 0px;
   }
+
   .intro-text1 {
     position: initial;
     top: 300px;
