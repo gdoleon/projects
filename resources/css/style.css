@@ -553,6 +553,10 @@ footer .logo {
     margin-top: 100px;
   }
 
+  .intro-text {
+    position: relative;
+    left: 0;
+  }
   .intro-text1 {
     position: initial;
     top: 300px;
