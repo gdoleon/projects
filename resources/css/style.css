@@ -193,9 +193,17 @@ nav {
 
 .container.about {
   padding-top: 100px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 10%;
   align-items: center;
-  border-bottom: solid 2px #CECECE;
 }
+
+.container.exhbt {
+  padding-top: 100px;
+  border-top: solid 2px #CECECE;
+}
+
 .container.contact {
   padding-left: 30px;
 }
@@ -510,6 +518,11 @@ footer .logo {
 
   .container {
     width: 98%;
+  }
+
+  .container.about {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .container.intro {
