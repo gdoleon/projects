@@ -276,6 +276,15 @@ nav {
   border-bottom: 1px solid #e4e4e4;
 }
 
+.aptus-bar {
+  justify-content: center;
+}
+
+.aptus-bar h4 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .row {
   display: flex;
   align-items: center;
